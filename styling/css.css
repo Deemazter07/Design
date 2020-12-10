@@ -1,0 +1,331 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #839b97;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: "Pacifico";
+  font-size: 3.2rem;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-family: "Pacifico";
+  color: #34626c;
+}
+
+h3 {
+  font-family: "Pacifico";
+}
+
+p {
+  font-family: "Dancing Script";
+}
+
+hr {
+  border-style: dotted;
+  border-width: 10px;
+  border-bottom: none;
+}
+
+
+/*class section sesuai urut*/
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 15px 0;
+  transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+  padding: 15px 0;
+  background-color: #34626c;
+}
+
+.navbar.active {
+  background-color: #34626c;
+}
+
+.navbar-brand {
+  font-family: "Pacifico";
+  font-size: 18px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.header-text {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 200px;
+  color: #FFF;
+  padding: 2%;
+  text-align: center;
+}
+
+.header-text p {
+  font-size: 24px;
+}
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+  color: #fff
+}
+
+.features-box p {
+  font-size: 20px;
+}
+
+.icon {
+  color: #c6b497;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #c7956d
+}
+
+.about-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.img-bw {
+  width: 20%;
+  border-radius: 200%;
+  float: left;
+  margin-right: 20px;
+}
+
+.img-lunox {
+  width: 20%;
+  border-radius: 200%;
+  float: right;
+  margin-left: 20px;
+}
+
+.community-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.content-community {
+  text-align: center;
+  font-size: 20px;
+  padding: 100px 0px;
+}
+
+.gap {
+  padding: 40px 0;
+}
+
+.gap-find-us {
+  padding: 20px 0;
+}
+
+.social {
+  padding: 10px 10px;
+}
+
+/* ID section sesuai urut*/
+
+#features {
+  padding: 7% 15%;
+  color: #fff;
+}
+
+#features .title::after {
+  content: "our features";
+}
+
+#features .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Pacifico", sans-serif;
+}
+
+#features .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #34626c;
+  transform: translateX(-50%);
+}
+
+#features .title::after {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  font-size: 20px;
+  color: #fff;
+  padding: 5px;
+  background: #839b97;
+  transform: translateX(-50%);
+}
+
+#about {
+  padding: 7% 15%;
+  background-color: #eeeeee;
+  font-size: 1.8rem;
+}
+
+#about .title::after {
+  content: "who are we?";
+}
+
+#about .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Pacifico", sans-serif;
+}
+
+#about .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #34626c;
+  transform: translateX(-50%);
+}
+
+#about .title::after {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  font-size: 20px;
+  color: #c6b497;
+  padding: 5px;
+  background: #f0f0f0;
+  transform: translateX(-50%);
+}
+
+
+#community {
+  padding: 7% 15%;
+  color: #fff;
+}
+
+#community .title::after {
+  content: "our community";
+}
+
+#community .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Pacifico", sans-serif;
+}
+
+#community .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #34626c;
+  transform: translateX(-50%);
+}
+
+#community .title::after {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  font-size: 20px;
+  color: #fff;
+  padding: 5px;
+  background: #839b97;
+  transform: translateX(-50%);
+}
+
+#find-us {
+  padding: 7% 15%;
+  background-color: #eeeeee;
+  font-size: 1.8rem;
+}
+
+#find-us p {
+  font-size: 1.6rem;
+}
+
+#find-us .title::after {
+  content: "where are we?";
+}
+
+#find-us .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Pacifico", sans-serif;
+}
+
+#find-us .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #34626c;
+  transform: translateX(-50%);
+}
+
+#find-us .title::after {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  font-size: 20px;
+  color: #c6b497;
+  padding: 5px;
+  background: #f0f0f0;
+  transform: translateX(-50%);
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
